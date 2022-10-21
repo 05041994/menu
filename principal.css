@@ -1,0 +1,40 @@
+ol{
+    display: flex;
+}
+ol li{
+    list-style-type: none;
+    padding: 0 1em;
+}
+a{
+    text-decoration: none;
+    color: chocolate;
+}
+ol ol{
+    display: block;
+    position: absolute;
+    background-color: cyan;
+    padding: 1em;
+    visibility: hidden;
+}
+ol ol a{
+    color: black;
+}
+ol li:hover ol{
+    visibility: visible;
+    /* ao passa o mause no li, o ol ficara visivel, assim fica visiveis os comandos do ol */
+}
+header{
+    display: flex;
+    align-content: space-between;
+}
+/* div#menu{
+    background-color: crimson;
+    box-shadow: 0 0 0.3 black;
+    width: 20em;
+    height: 20em;
+    padding: 3em;
+    position: fixed;
+    z-index: 1;
+    left: 20%;
+    top: 20%;
+} */
