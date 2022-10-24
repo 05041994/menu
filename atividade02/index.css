@@ -1,0 +1,35 @@
+.a{ 
+    grid-area: a;
+    padding: 10px;
+}
+.a h2{
+    color: black;
+}
+.d h2{
+    color: black;
+}
+.c h2{
+    color: black;
+}
+.b{
+    grid-area: b;
+    padding: 10px;
+}
+.c{
+    grid-area: c;
+    padding: 10px;
+}
+.d{
+    grid-area: d;
+    padding: 10px;
+} 
+main{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;   
+    /* A largura de cada tabela */
+    gap: 1em ;
+    /* grid-template-rows: 18em 18em; */
+    grid-template-areas:
+    "a a c"
+    "a a d";
+}

@@ -1,0 +1,96 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Arial', Helvetica, sans-serif;
+}
+ul, li, a, ol{
+    list-style: none;
+    text-decoration: none;
+}
+header{
+    background-color: white;
+    display: flex;
+    justify-content: space-between;   
+    align-items: center;
+    padding: 8px;
+}
+header figure{
+    padding: 10px;
+}
+header  nav ul{
+    width: 40em; 
+    justify-content: space-between;
+    display: flex;
+}
+header nav ul li a{
+    color: black;
+    padding: 5px;
+
+}
+header nav ul li a:hover{
+    background-color: rgb(176, 176, 176);
+}
+header nav {
+    width: 40em;
+    margin: 40px;
+    padding: 8px;
+}
+header .formulariodoindex{
+    width: 15em;
+    padding: 10px;
+}
+.imagemacimadoheader{
+    width: 100%;
+    height: 500px;
+}
+.src{
+  width: 13px;
+  height: 13px;
+}
+
+@media screen and (max-width:428px){
+    /* header nav{
+        visibility: hidden;
+    } */
+}
+div#menu{
+    background-color: rgb(238, 232, 232);
+    box-shadow: 0 0 0.3 black;
+    width: 20em;
+    height: 20em;
+    padding: 3em;
+    position: fixed;
+    z-index: 1;
+    left: 70%;
+    top: 7%;
+    
+}
+/* Main */
+main{
+
+    padding: 40px;
+    background-color: #cdc9c9;
+}
+main h2{
+    margin-bottom: 10px;
+}
+
+footer{
+    background-color: #03A6A6;
+    padding: 50px;
+    display: flex;
+    justify-content: space-between;
+}
+footer div nav ol{
+    display: flex;
+    justify-content: space-between;
+}
+.fotosdosmineiros{
+    width: 800px;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 40px;
+}
+footer nav a{
+    color: black;
+}
